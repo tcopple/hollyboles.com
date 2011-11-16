@@ -1,0 +1,59 @@
+@charset "UTF-8";
+
+html {
+  background-color: #fff;
+}
+
+body {
+  font-family: 'Shanti', sans-serif;
+}
+
+#main {
+  width: 960px;
+  margin: 20px auto 20px auto;
+  border: 1px solid #000;
+  padding: 5px;
+}
+
+img {
+  padding: 0px;
+  margin: 0px;
+}
+
+#content {
+  padding: 15px;
+  display: block;
+  position: relative;
+}
+
+#content .text {
+  width: 615px;
+  float: left;
+  padding-bottom: 20px;
+}
+
+#content .column {
+  width: 300px;
+  float: right;
+  margin: 55px -15px 20px 20px;
+}
+
+#content .column img {
+  padding-bottom: 60px;
+}
+
+#content .column form {
+  padding-left: 60px;
+}
+
+#content .donate {
+  float: right;
+}
+
+.disclaimer {
+  font-size: .85em;
+  font-style: italic;
+  position: absolute;
+  bottom: 0px;
+}
+.clear { clear: both; }
